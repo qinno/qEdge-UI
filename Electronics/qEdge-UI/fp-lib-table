@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "qEdge-UI")(type "KiCad")(uri "$(KIPRJMOD)/qEdge-UI.pretty")(options "")(descr "Components for project qEdge-UI"))
+)

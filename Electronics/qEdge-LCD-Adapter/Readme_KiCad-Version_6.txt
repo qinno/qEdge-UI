@@ -1,0 +1,1 @@
+Projekt wurde mit KiCad 6 erstellt.

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "qEdge-LCD")(type "KiCad")(uri "${KIPRJMOD}/qEdge-LCD.pretty")(options "")(descr "Components for project qEdge-LCD-Adapter"))
+)

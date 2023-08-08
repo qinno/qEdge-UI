@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "qEdge-pico")(type "KiCad")(uri "${KIPRJMOD}/project_symbols.kicad_sym/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr "")(disabled))
+  (lib (name "qEdge-UI")(type "KiCad")(uri "${KIPRJMOD}/qEdge-UI.kicad_sym")(options "")(descr ""))
+)
