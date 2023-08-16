@@ -1,7 +1,6 @@
 # qEdgeUI
 
-![Preview](./qEdgeUI-1_800.png)
----
+![Preview](qEdgeUI-1_800.png)
 
 # About
 
@@ -110,7 +109,7 @@ to:
 * Unzip the LittleFS plugin archiv and copy the folder PicoLittleFS folder with its subfolder into the folder tools 
 * Close the Ardunio IDE
 
-![Preview](./qEdgeUI-2_800.png)
+![Preview](qEdgeUI-2_800.png)
 
 ## Running qEdgeUI HwTestApp on qEdgeUI
 
