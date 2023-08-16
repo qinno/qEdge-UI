@@ -1,6 +1,6 @@
 # qEdgeUI
 
-![Preview](P:\qinno\qEdge\21_qEdge_si\02_Doku\Entw\github\qinno\Repositories\Public\qEdgeUI-Software\qEdgeUI-1_800.png)
+![Preview](./qEdgeUI-1_800.png)
 ---
 
 # About
