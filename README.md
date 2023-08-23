@@ -1,6 +1,6 @@
 # qEdgeUI
 
-![Preview](qEdgeUI-1_800.png)
+![Preview](https://github.com/qinno/qEdge-UI/blob/master/qEdge-UI-1_800.png)
 
 # About
 
@@ -43,8 +43,8 @@ Key hardware features of **qEdgeUI**:
 
 To get started you will need the qEdgeUI hardware.
 You have two options to acquire the hardware:
-* You can build the baseboard and housing by your own by using the electronics documentation in [baseboard in KiCAD format] and 
-the [STL files for 3D-printing a housing and Buttons].
+* You can build the baseboard and housing by your own by using the electronics documentation in [baseboard in KiCAD format](Electronics/qEdge-UI) and 
+the [STL files for 3D-printing a housing and Buttons](Mechanics/STL).
 * Or you can order a qEdgeUI (baseboard and housing)[here].
 
 ### SW-Environment
@@ -76,40 +76,34 @@ to:
 #define LORA_DEFAULT_SPI           SPI1
 ```
 
-
 ## Installing qEdgeUI HwTestApp
 
 ### Clone the qEdgeUI repository e.g. with git locally
 
-* git clone https://github.com/qinno/qEdgeUI-Software
+* git clone https://github.com/qinno/qEdge-UI
 
 ### Copy & Configure the HwTestApp
 
-* Copy the whole folder **apps/qEdgeUI-HwTestApp** of the repository to your Arduino sources folder.
-
-** Located in the default installation path for Windows:
-***C:\Users\{username}\Documents\Arduino**
-
-** Located in the default installtion path for Linux:   ***/home/{username}/Arduino**
+* Copy the whole content of the folder **Software/example/qEdgeUI-HwTestApp** of the repository to your Arduino sources folder.
+    - Located in the default installation path for Windows: **C:/Users/{username}/Documents/Arduino**
+    - Located in the default installtion path for Linux: **/home/{username}/Arduino**
 
 * Copy the file **User_Setup.h** of the repository folder libaries\TFT_eSPI\ to overwrite the file with the same name in:
-
-**Windows: **C:\Users\{username}\Documents\Arduino\libraries\TFT_eSPI**
-
-**Linux: **/home/{username}/Arduino\libraries\TFT_eSPI**
+    - Windows: **C:/Users/{username}/Documents/Arduino/libraries/TFT_eSPI**
+    - Linux: **/home/{username}/Arduino/libraries/TFT_eSPI**
 
 
 ### Download & Integrate LittleFS plugin
 
 * Download from Github the latest ZIP archive of the LittleFS plugin (e.g. PicoLittleFS-0.2.0.zip) [Release folder of the repository of arduino-pico-littlefs-plugin from Earle F. Philhower, III](https://github.com/earlephilhower/arduino-pico-littlefs-plugin/releases). 
 
-* Create a folder tools if it not already exists:
-** Windows: **C:\Users\{username}\Documents\Arduino\tools**
-** Linux: **/home/{username}/Arduino/tools**
-* Unzip the LittleFS plugin archiv and copy the folder PicoLittleFS folder with its subfolder into the folder tools 
+* Create a folder **tools** if it not already exists:
+   - Windows: **C:/Users/{username}/Documents/Arduino/tools**
+   - Linux: **/home/{username}/Arduino/tools**
+* Unzip the LittleFS plugin archiv and copy the **PicoLittleFS** folder with its subfolders into the folder **tools** 
 * Close the Ardunio IDE
 
-![Preview](qEdgeUI-2_800.png)
+![Preview](https://github.com/qinno/qEdge-UI/blob/master/qEdge-UI.jpg)
 
 ## Running qEdgeUI HwTestApp on qEdgeUI
 
@@ -154,13 +148,13 @@ The main objective of the qEdgeUI Demo software is to check the functionality of
 * Keyboard - keyboard emulation
 * Settings - set RGB preferences and Backlight, test Buzzer
 
-## behind the scenes
+## Behind the scenes
 
-PNG files on SD-Card or LittleFS needs to be 320x240 (4:3) to fill the whole screen. Use ImageMagick to convert existing files.
+PNG files on SD-Card or LittleFS needs to be 320x240 (4:3) to fill the whole screen. Use e.g. ImageMagick to convert existing files.
 
 # Roadmap
 
-See the [open issues](https://github.com/dec0dOS/amazing-github-template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/qinno/qEdge-UI/issues) for a list of proposed features (and known issues).
 
 # Contributing
 
@@ -180,39 +174,38 @@ Please note that this is an engineering example and is not certified to European
 # known Limitations
 
 * main menu starts slowly if compiled with SD card and no SD card inserted
-
 * RTC not yet supported in software
 
 # Support
 
 Reach out to the maintainer at one of the following places:
 
-- The email which is located at [qinno GmbH · GitHub](https://github.com/qinno)
+- By email which is located at [qinno GmbH · GitHub](https://github.com/qinno)
 
-# License
+# Licenses
 
-This project is licensed under the **LGPL license**. 
-
-See LICENSE for more information.
+This project is licensed under the following open source licenses:
+* Electronics are under [**CERN-OHL-S V2**](https://ohwr.org/cern_ohl_s_v2.txt)
+* Mechanics are under [**CC-BY-NC 3.0**](https://creativecommons.org/licenses/by-nc/3.0/legalcode)
+* Software Examples are under [**GPLv3**](https://www.gnu.org/licenses/gpl-3.0.en.html)
+   
+See corresponding LICENSE files in the folders Electronics, Mechanics and Software for more detailed information.
 
 # Acknowledgements
 
 Thanks to our partners supporting this project:
 
-Axel Isele for the mechanics design
-
-[KT Kunststofftechnik for their CNC milling/bending/welding housing](https://www.kt-technik.com/en/home/)
-
-[Würth Elektronik for free samples for the very first prototypes](https://www.we-online.com/de)
-
-All qinno-colleagues for their commitment even in their free time
+* Axel Isele for the mechanics design
+* [KT Kunststofftechnik for their CNC milling/bending/welding housing](https://www.kt-technik.com/en/home/)
+* [Würth Elektronik for free samples for the very first prototypes](https://www.we-online.com/de)
+* All qinno-colleagues for their commitment even in their spare time
 
 Thanks also for these awesome resources that were used during the development of the **qEdgeUI**:
 
-* [the KiCAD team for their great CAE tool](https://www.kicad.org/)
+* [The KiCAD team for their great CAE tool](https://www.kicad.org/)
 * [Earle F. Philhower, III for his Arduino library for the RP2040](https://github.com/earlephilhower/arduino-pico)
 * [Bodmer for his versatile TFT-Library](https://github.com/Bodmer/TFT_eSPI)
 * [Larry Bank for his PNG extension](https://github.com/bitbank2/PNGdec)
 * [The Adafruit Industries Team for their RGB-LED library](https://github.com/adafruit/Adafruit_NeoPixel)
-* [and the Arduino team for their easy to use (now legacy) IDE](https://www.arduino.cc/en/software)
+* [The Arduino team for their easy to use (now legacy) IDE](https://www.arduino.cc/en/software)
 * [Sandeep Mistry for his handy LoRa library](https://github.com/sandeepmistry/arduino-LoRa)
