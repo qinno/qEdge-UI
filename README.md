@@ -1,6 +1,6 @@
 # qEdge-UI
 
-![Preview](https://github.com/qinno/qEdge-UI/blob/master/Images/qEdge.png)
+![Preview](Images/qEdge.png)
 
 # About
 
@@ -28,7 +28,7 @@ Key hardware features of **qEdge-UI**:
 - RGB-LEDs for signalling
 - Raspberry Pi 3b/4b connectable (optional, not tested)
 
-![Preview](https://github.com/qinno/qEdge-UI/blob/master/Images/qEdgeUI-1_800.png)
+![Preview](Images/qEdge-UI-1_800.png)
 
 # Getting Started
 
