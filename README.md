@@ -28,7 +28,7 @@ Key hardware features of **qEdge-UI**:
 - RGB-LEDs for signalling
 - Raspberry Pi 3b/4b connectable (optional, not tested)
 
-![Preview](Images/qEdge-UI-1_800.png)
+![Preview](Images/qEdge-UI-2_800.png)
 
 # Getting Started
 
@@ -41,8 +41,9 @@ To get started you will need the qEdge-UI electronic boards (main and display ad
 To get started with the software development you need a PC with:
 
 * preinstalled Windows 7 or newer (64Bit), Linux (32/64Bit) or MacOS 10.10 newer
-* An Arduino IDE 1.8.x including USB Driver support (tested with 1.8.19 - 541MB) [download here](https://www.arduino.cc/en/software). Arduino IDE 2.x is not recommended, because it has no support for Littlefs (extension), Compilation with IDE 2.x should work)
-* [and the qEdge-UI firmware](Firmware)
+* An Arduino IDE 1.8.x including USB Driver support
+* Addional you can use our qEdge-UI examples and libraries as a starting point for your own software development or you can download the precompiled UFS binaries of our qEdge-UI examples. [Here](Software) you can find the sources and installation guideline.
+
 
 ### Mechanics
 
@@ -86,7 +87,7 @@ Please note that this is an engineering example and is not certified to European
 
 # Known limitations
 
-* No open source product use in the moment, only a plattform for investigation
+This project is at the moment not used in a commercial open source product, but can be used as a starting point for that purpose. Please fell free to contact us for more information.
 
 # Support
 

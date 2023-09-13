@@ -2,28 +2,27 @@
 
 
 
-![Preview](Images/qEdge.png)
+![qEdge-UI Logo](https://github.com/qinno/qEdge-UI/blob/master/Images/qEdge.png)
 ---
 
 # Getting Started
 
-### Quick start
-
-[In this subdirectory](Software/examples/HwTestApp/UF2) you will find precompiled UFS binaries for the application, littlefs and a tool to erase the Pico's flash. To start put the Pico in bootloader mode (press BOOTSEL button on the Pico module and apply power). Each time the drive appears, copy flash_nuke.uf2, littlefs.UF2 and qEdgeUI-HwTestApp.ino.uf2 to the drive in this order. The Pico will reboot after each file, so wait for the drive to appear. Once the last file has been copied, the device should work. You need only to calibrate your touch and add your WiFi network.
-
-### SW-Environment
-
 To get started with the software development you need a PC with:
 
-* Preinstalled Windows 7 or newer (64Bit), Linux (32/64Bit) or MacOS 10.10 newer
+## SW-Environment Prerequisites
 
+### OS
+* Windows 7 or newer (64Bit) or
+* Linux (32/64Bit) or 
+* MacOS 10.10 or newer
+
+### IDE
 * An Arduino IDE 1.8.x including USB Driver support (tested with 1.8.19 - 541MB) [download here](https://www.arduino.cc/en/software). Arduino IDE 2.x is not recommended, because it has no support for Littlefs (extension), Compilation with IDE 2.x should work)
 
+### Board package
 * The Raspberry Pi Pico / RP2040 Board package by Earle F. Philhower, III. Please follow the [installation guide](https://github.com/earlephilhower/arduino-pico#installation) on Github from Earle F. Philhower, III in the arduino-pico repository. Only the installtion steps under the section "Installation" are needed.
   
-
 ### Libraries
-
 Install the following libraries, from the Arduino IDE, by selecting the "Sketch" menu and then selecting "Include Library" and then clicking on "Manage Libraries":
 
 * TFT_eSPI (by Bodmer - version 2.5.0)
@@ -33,7 +32,6 @@ Install the following libraries, from the Arduino IDE, by selecting the "Sketch"
 * LoRa (by Sandeep Mistry - version 0.8.0)
 
 #### Configure LoRA libary
-
 * Open with an editor the file LoRa.h in Arduino/libraries/LoRa/src/
 * Change in Line 23 from:
 
@@ -49,14 +47,21 @@ to:
 
 ## Installing qEdge-UI HwTestApp
 
-### Clone the qEdgeUI repository e.g. with git locally into the Arduino sources folder
+### Clone the qEdge-UI repository locally into the Arduino sources folder
 * Located in the default installation path for Windows:
-  `cd C:\Users\{username}\Documents\Arduino`
+```
+cd C:\Users\{username}\Documents\Arduino
+```
   
-  Located in the default installation path for Linux:
-  
-  `cd /home/{username}/Arduino`
-* git clone https://github.com/qinno/qEdge-UI
+* Located in the default installation path for Linux:
+```  
+cd /home/{username}/Arduino
+```
+
+* clone the repo
+```
+git clone https://github.com/qinno/qEdge-UI
+```
 
 ### Copy & Configure the qEdge-UI HwTestApp
 
@@ -80,7 +85,7 @@ to:
 
 * Close the Ardunio IDE
 
-![Preview](images\qEdgeUI-2_800.png)
+![qEdge-UI with HwTestApp](https://github.com/qinno/qEdge-UI/blob/master/Images/qEdge-UI-1_800.png)
 
 ## Running HwTestApp on qEdge-UI
 
