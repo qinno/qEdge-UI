@@ -4168,6 +4168,11 @@
     (uuid ff9db5ea-3d05-4186-a2ae-4f5326bbca1a)
   )
 
+  (text "(C) 2023 qinno - this work is licensed under CERN-OHL-S\nsee https://ohwr.org/cern_ohl_s_v2.pdf for more information"
+    (at 237.49 283.21 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1df6bffc-de61-4d01-87d9-16f350714abc)
+  )
   (text "Pinheaders for RPi Pico" (at 321.31 36.83 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 5cc5128f-3cad-45f9-b8a4-38e3f1fe7946)

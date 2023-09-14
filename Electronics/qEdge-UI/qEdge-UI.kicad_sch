@@ -834,6 +834,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9cb3958a-2622-4971-9780-1d7109784302)
   )
+  (text "(C) 2023 qinno - this work is licensed under CERN-OHL-S\nsee https://ohwr.org/cern_ohl_s_v2.pdf for more information"
+    (at 238.76 283.21 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ac4ef832-673c-4c39-8fe7-ebea755c0e7b)
+  )
   (text "for LCD-Adapter" (at 367.03 207.01 0)
     (effects (font (size 1.905 1.905)) (justify left bottom))
     (uuid b412f3cc-d747-49e4-af3e-b05be88e1086)

@@ -2366,6 +2366,11 @@
     (effects (font (size 0.762 0.762)) (justify left bottom))
     (uuid bc0979d7-a292-4946-9361-9e27fe6c480a)
   )
+  (text "(C) 2023 qinno - this work is licensed under CERN-OHL-S\nsee https://ohwr.org/cern_ohl_s_v2.pdf for more information"
+    (at 238.76 283.21 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e3289404-0b89-44b6-b33c-facb3cc11d70)
+  )
   (text "SPI-control soldering jumper" (at 35.56 219.71 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid f93840fe-6384-4f03-a536-5ee14eb9b3ce)
