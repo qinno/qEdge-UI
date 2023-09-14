@@ -47,7 +47,7 @@ To get started with the software development you need a PC with:
 
 ### Mechanics
 
-To create the nice looking electronic box above you need a 3D printer [and the STL-files](Mechanics)
+To create the nice looking electronic box above you need a 3D printer [and the mechanics](Mechanics)
 
 ## qEdge-UI Hardware Test App functionality
 
