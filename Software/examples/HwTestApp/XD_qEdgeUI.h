@@ -64,7 +64,7 @@
 #define TFT_DC_PIN        20      // in library TFT_eSPI/User_Setup.h !!!
 #define TOUCH_CS_PIN      15      // 
 #define SD_CS_PIN          7      // SD-Card SPI CS
-#define SD_CLK_FREQ       12      // SD clock frequency in MHz 
+#define SD_CLK_FREQ        4      // SD clock frequency in MHz 
 #define SPI_CLK_PIN       18      // 
 #define SPI_MOSI_PIN      19      // 
 #define SPI_MISO_PIN      16      // 

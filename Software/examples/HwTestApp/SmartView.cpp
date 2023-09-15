@@ -464,9 +464,11 @@ bool sViewInitSD()
 {
 
 #ifdef SDCARD
+  digitalWrite(SD_CS_PIN, HIGH);
   SDFSConfig c2;
   c2.setCSPin(SD_CS_PIN);
-  c2.setSPISpeed(SD_SCK_MHZ(20));
+  c2.setSPISpeed(SD_SCK_MHZ(SD_CLK_FREQ));
+  c2.setSPI(tft.getSPIinstance());
   SDFS.setConfig(c2);
   SDFS.end();
   if (!SDFS.begin()) {
@@ -482,6 +484,7 @@ bool sViewInitSD()
 #else   // no SD interface defined
   SDpresent = false;
   Dln("no SD card interface compiled");
+  digitalWrite(SD_CS_PIN, HIGH);
   return(false);
 #endif
 }

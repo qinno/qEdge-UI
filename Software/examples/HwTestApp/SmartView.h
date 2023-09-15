@@ -89,6 +89,7 @@
 #include "SPI.h"
 #include <LittleFS.h>           // LittleFS for in memory filesystem
 #include <SD.h>                 // SD-card
+//#include <RP2040_SD.h>          // SD-card
 
 #include <PNGdec.h>             // PNG decoder for SD/LittleFS to read PNGs
 extern PNG png;
