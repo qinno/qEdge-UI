@@ -99,10 +99,10 @@ Reach out to the maintainer at one of the following places:
 
 This project is licensed under the following open source licenses:
 * Electronics are under [**CERN-OHL-S V2**](https://ohwr.org/cern_ohl_s_v2.txt)
-* Mechanics are under [**CC-BY-NC 3.0**](https://creativecommons.org/licenses/by-nc/3.0/legalcode)
+* Mechanics and Design are under [**CC-BY-NC-4.0**](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 * Software Examples are under [**GPLv3**](https://www.gnu.org/licenses/gpl-3.0.en.html)
    
-See corresponding LICENSE files in the folders Electronics, Mechanics and Software for more detailed information.
+See corresponding Readme.md files in the folders Electronics, Mechanics and Software for more detailed information.
 
 [Raspberry Pi is a trademark of Raspberry Pi Ltd](http://www.raspberrypi.com/)
 

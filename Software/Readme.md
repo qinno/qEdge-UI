@@ -144,7 +144,9 @@ Reach out to the maintainer at one of the following places:
 - By email which is located at [qinno GmbH · GitHub](https://github.com/qinno)
 
 # License
-This project is licensed under the following open source licenses:
-* Software Examples are under [**GPLv3**](https://www.gnu.org/licenses/gpl-3.0.en.html)
+The files in these folders are licensed under the following open source licenses:
+* [examples/](examples/) -> [**GPLv3**](https://www.gnu.org/licenses/gpl-3.0.en.html)
+* PNG Images in folder data and SDcontent [examples/HwTestApp/](examples/HwTestApp/) -> [**CC-BY-NC-4.0**](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+* [libraries/TFT_eSPI](libraries/TFT_eSPI) -> [**MIT, BSD, FreeBSD**](libraries/TFT_eSPI/license.txt)
 
-See the licence header in each file for more information.
+For detailed information please have a look at the licence files in the corresponding folders and file header in each corresponding file.
