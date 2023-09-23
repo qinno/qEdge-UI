@@ -54,3 +54,18 @@ For printing, it is recommended to print at least 4 buttons at the same time to 
 # License
 
 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+## Additional Printig Files (tests pending)
+
+Since there is already print data for a Prusa printer, I wanted to extend the data for the BambuLab printer I use. Here are only [3MF](./3mf) data available, because BambuLab devices do not need the manual intermediate step to .gcode and can print directly from this file.
+
+Important: 
+1. These data are intended in the Bambu Studio Slicer or the Orca Slicer. To my knowledge, other software does not support the multi-plate layouts.
+
+2. Bed 04 is preconfigured for a test of the support structures, the two cutouts use different types of 'normal' supports to test their removal after printing.
+
+#### P1-X1
+![Printbed Layout](./images/BambuStudio_P1-X1-printingplates.jpg)
+
+#### A1
+![Printbed Layout](./images/BambuStudio_A1-printingplates.jpg)
