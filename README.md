@@ -110,6 +110,8 @@ See corresponding Readme.md files in the folders Electronics, Mechanics and Soft
 
 Thanks to our partners supporting this project:
 
+* [Our Customer Varmeco for the generous donation of material](https://varmeco.de)
+
 * Axel Isele for the mechanics design
 
 * [Würth Elektronik for free samples for the very first prototypes](https://www.we-online.com/de)
