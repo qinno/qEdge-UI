@@ -1,20 +1,22 @@
 # qEdge-UI
 
-![Preview](Images/qEdge.png)
+![Preview](Images/qEdgeUpdate.png)
+# Update
+qEdge-UI supports now PICO2-W plattform (RP2350) with minimum changes as qEdge-UI++. Compilation now works in the Arduino 2.x.x IDE. LittleFS upload does not work in the moment, copy the files in /data to the SD-card, system copies it automagically to LittleFS on the first start. 
 
 # About
 
 This project is an example of use of what can be achieved with free/libre and open source software and free/libre and open source tools in a professional proceeding. 
 In contrast to the generally accepted approach of commercial companies, the development results of this project (hardware and mechanical design, as well as software source code) are also available under an open source licence.
 
-Based on the Raspberry Pi Pico, we have created a design that can be used as a starting point for further development. In order to keep things as simple as possible we use the Arduino platform.
+Based on the Raspberry Pi Pico (2), we have created a design that can be used as a starting point for further development. In order to keep things as simple as possible we use the Arduino platform.
 
-Key hardware features of **qEdge-UI**:
+Key hardware features of **qEdge-UI (qEdge-UI++)**:
 
-- Raspberry Pi Pico RP2040
-- Dual-Core ARM Cortex M0+ CPU @133 MHz
-- 264KB SRAM and 2MB Flash
-- WiFi + Bluetooth (Pico-W)
+- Raspberry Pi Pico RP2040 (2350)
+- Dual-Core ARM Cortex M0+ CPU @133 MHz (ARM Cortex M33 @150 MHz or RISC-V)
+- 264KB SRAM and 2MB Flash (520 KB / 4MB)
+- WiFi + Bluetooth (Pico-W/Pico2-W)
 - USB interface and power supply
 - additional 12/24 VDC supply
 - 3,2" TFT-Display 320x240 with resistive touch
